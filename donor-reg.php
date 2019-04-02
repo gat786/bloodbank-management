@@ -29,34 +29,34 @@ session_start();
                     <div class="form">
                         <center>
                             <table>
-                                <tr>
+                                <tr><td class="column_desc">Enter Name</td>
                                     <td>
                                         <input type="text" name="name" id="" class="donor-reg-text" placeholder="Enter Name">
-                                    </td>
+                                    </td><td class="column_desc">Enter Father's name</td>
                                     <td>
                                         <input type="text" name="fathername" id="" class="donor-reg-text" placeholder="Enter Father's Name">
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr><td class="column_desc">Enter Address</td>
                                     <td>
                                         <textarea name="address" id="" cols="20" rows="4" class="donor-reg-text" placeholder="Enter Address"></textarea>
-                                    </td>
+                                    </td><td class="column_desc">Enter City Name</td>
                                     <td>
                                         <input type="text" name="city" id="" class="donor-reg-text" placeholder="Enter City Name">
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr><td class="column_desc">Enter Mobile Number</td>
                                     <td>
                                         <input type="number" name="mobile-number" class="donor-reg-text" id="" placeholder="Enter Mobile Number">
-                                    </td>
+                                    </td><td class="column_desc">Enter Age </td>
                                     <td>
                                         <input type="number" name="age" id="" class="donor-reg-text" placeholder="Enter Age">
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr><td class="column_desc">Enter Email Address</td>
                                     <td>
                                         <input type="email" name="email" id="" class="donor-reg-text" placeholder="Enter Email Address">
-                                    </td>
+                                    </td><td class="column_desc">Enter Blood Group</td>
                                     <td>
                                         <select name="bloodgroup" id="" class="donor-reg-text">
                                             <option value="null"> Select </option>
@@ -72,7 +72,7 @@ session_start();
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td colspan=2>
+                                    <td colspan=4>
                                         <input type="submit" name='sub' class="submit-button" value="Submit">
                                     </td>
                                 </tr>

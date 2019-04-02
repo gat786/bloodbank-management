@@ -38,7 +38,7 @@
                                 <b>Enter Password</b>
                             </td>
                             <td width="200px" height="70px">    
-                                <input   class="textfield" name="ps" width="100px" height="50px" placeholder="Enter Password">
+                                <input type="password" class="textfield" name="ps" width="100px" height="50px" placeholder="Enter Password">
                                     
                                 </input>
                             </td>
@@ -75,7 +75,7 @@
                 }
                 ?>
             </div>
-            <div class="" id="footer">Footer</div>
+            <div class="" id="footer"></div>
         </div>
     </div>
 </body>

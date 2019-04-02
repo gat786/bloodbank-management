@@ -24,7 +24,7 @@ session_start();
                     }
                 ?>
                 <br>
-                <h1>Donor List </h1>
+                <h1>Exchange Blood Donor List </h1>
                 <?php
                 //name,fname,address,city,mobile,age,email,bgroup
                 ?>
@@ -37,14 +37,15 @@ session_start();
                             <td><p class="table_heading">Fathers Name</td>
                             <td><p class="table_heading">Address</td>
                             <td><p class="table_heading">City</td>
-                            <td><p class="table_heading">Age</td>
-                            <td><p class="table_heading">Blood Group</td>
-                            <td><p class="table_heading">Email</td>
                             <td><p class="table_heading">Mobile No</td>
+                            <td><p class="table_heading">Age</td>
+                            <td><p class="table_heading">Email</td>
+                            <td><p class="table_heading">Blood Group</td>
+                            <td><p class="table_heading">Exchange Blood Group</td>
                         </tr>
 
                         <?php
-                            $sql = "SELECT * FROM donor_registeration;";
+                            $sql = "SELECT * FROM exchange_blood;";
                             $query = $pdo->prepare($sql);
                             $query->execute();
                             $donors=$query->fetchAll();
@@ -60,6 +61,7 @@ session_start();
                                 "<td>".$donor['age']."</td>".
                                 "<td>".$donor['email']."</td>".
                                 "<td>".$donor['bgroup']."</td>". 
+                                "<td>".$donor['ebgroup']."</td>". 
                                 "</tr>";
 
 

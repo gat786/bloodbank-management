@@ -33,13 +33,13 @@ session_start();
                 <br><br><br>
                 <ul>
                     <li><a href="empty-stock.php">Out Stock Blood List</a></li>
-                    <li><a href="exchange.php">Exchange Blood List</a></li>
-                    <li><a href="ngo.php">NGO List</a></li>
+                    <li><a href="exchange.php">Exchange Blood Registration</a></li>
+                    <li><a href="exchange_list.php">Exchange Blood List</a></li>
                 </ul>
 
 
             </div>
-            <div class="" id="footer">Footer
+            <div class="" id="footer">
                     <p><a href="logout.php">Logout</a></p>
 
             </div>
