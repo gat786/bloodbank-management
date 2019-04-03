@@ -3,6 +3,10 @@
     height: auto;
 }
 
+h1{
+    text-align: center;
+}
+
 #inner-full{
     width: 80%;
     height: auto;
@@ -29,12 +33,13 @@
 }
 
 .form{
-    background-color: red;
+    background-color: #ff3f34;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .submit-button{
-    color: white;
-    background-color: #2196f3;
+    background-color: #f5f6fa;
     width: 100px;
     padding: 8px;
     border-radius: 16px;
@@ -91,7 +96,7 @@ td{
 }
 
 .column_desc{
-    color:#fff;
+    color:#485460;
 }
 
 .exchange_table{

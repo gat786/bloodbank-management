@@ -31,18 +31,18 @@ session_start();
                             <table class="exchange_table">
                                 <tr><td class="column_desc">Enter Name</td>
                                     <td>
-                                        <input type="text" name="name" id="" class="donor-reg-text" placeholder="Enter Name">
+                                        <input type="text" name="name" id="" required="required" class="donor-reg-text" placeholder="Enter Name">
                                     </td><td class="column_desc">Enter Fathers Name</td>
                                     <td>
-                                        <input type="text" name="fathername" id="" class="donor-reg-text" placeholder="Enter Father's Name">
+                                        <input type="text" name="fathername" id="" required="required" class="donor-reg-text" placeholder="Enter Father's Name">
                                     </td>
                                 </tr>
                                 <tr><td class="column_desc">Enter Address</td>
                                     <td>
-                                        <textarea name="address" id="" cols="20" rows="4" class="donor-reg-text" placeholder="Enter Address"></textarea>
+                                        <textarea name="address" id="" required="required" cols="20" rows="4" class="donor-reg-text" placeholder="Enter Address"></textarea>
                                     </td><td class="column_desc">Enter City Name</td>
                                     <td>
-                                        <input type="text" name="city" id="" class="donor-reg-text" placeholder="Enter City Name">
+                                        <input type="text" name="city" id="" required="required" class="donor-reg-text" placeholder="Enter City Name">
                                     </td>
                                 </tr>
                                 <tr><td class="column_desc">Enter Mobile Number</td>
@@ -51,7 +51,7 @@ session_start();
                                     </td>
                                     <td class="column_desc">Enter Age</td>
                                     <td>
-                                        <input type="number" name="age" id="" class="donor-reg-text" placeholder="Enter Age">
+                                        <input type="number" name="age" id="" required="required" class="donor-reg-text" placeholder="Enter Age">
                                     </td>
                                 </tr>
                                 <tr><td class="column_desc">Enter Email Address</td>
@@ -64,8 +64,8 @@ session_start();
                                     <td class="column_desc">Enter Blood Group</td>
 
                                     <td>
-                                        <select name="bloodgroup" id="" class="donor-reg-text">
-                                            <option value="null"> Select </option>
+                                        <select required name="bloodgroup" id="" class="donor-reg-text">
+                                            <option value=""> Select </option>
                                             <option value="ap"> A positive </option>
                                             <option value="an"> A negative </option>
                                             <option value="abp"> AB positive </option>
