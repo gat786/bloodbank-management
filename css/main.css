@@ -8,9 +8,42 @@ h1{
 }
 
 #inner-full{
+    width: 100%;
+}
+
+.table_heading{
+    color: #485460;
+    font: outline;
+}
+
+th, td{
+    border-bottom: 1px solid #ddd;
+}
+
+.heading-row{
+    background-color: beige;
+}
+
+.admin-home-center{
+    background-color: #ff3f34;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#footer{
+    padding-left: 10px;
+    color: #ff3f34;
+    text-align: center;
+}
+
+.admin-home-table{
     width: 80%;
-    height: auto;
-    margin: auto;
+    margin: 0 auto;
+    border-width: 8px;
+}
+
+p a{
+    color: #ff3f34;
 }
 
 .text{
@@ -29,7 +62,6 @@ h1{
 
 #body{
     width: 100%;
-    margin-bottom: 4rem;
 }
 
 .form{
@@ -43,12 +75,6 @@ h1{
     width: 100px;
     padding: 8px;
     border-radius: 16px;
-}
-
-#footer{
-    width: 100%;
-    background-color: red;
-    padding: 0.1rem;
 }
 
 .donor-reg-text{
@@ -70,7 +96,7 @@ h1{
     background-color:black;
     width: 100px;
     height: 30px;
-    align-self: center;
+    margin: auto;
 }
 
 ul li{
@@ -89,7 +115,7 @@ a{
 }
 table{
     width: 100%;
-    text-align: center;
+    
 }
 td{
     padding: 5px;

@@ -45,8 +45,8 @@
                         </tr>
 
                         <tr>
-                            <td>
-                                <input type="submit" class="button" name="sub" value="L ogin">
+                            <td colspan=2>
+                                <input type="submit" class="button" name="sub" value="Login">
                             </td>
                         </tr>
 
@@ -75,7 +75,8 @@
                 }
                 ?>
             </div>
-            <div class="" id="footer"></div>
+            <div class="" id="footer">
+            </div>
         </div>
     </div>
 </body>

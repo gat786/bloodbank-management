@@ -15,27 +15,29 @@ session_start();
     <div id="full">
         <div id="inner-full">
             <div class="" id="header">
-            <a href="admin-home.php"><h2 class="text">Blood Bank Management System</h2></a>
+                <a href="admin-home.php"><h2 class="text">Blood Bank Management System</h2></a>
             </div>
-            <div class="" id="body">
+            <div class="body">
+                
                 <?php
                     if(!isset($_SESSION['un'])){
                         header("Location:index.php");
                     }
                 ?>
-                <br>
+                <br/>
                 <h1>Welcome Admin</h1>
-                <ul>
-                    <li><a href="donor-reg.php">Donor Registration</a></li>
-                    <li><a href="donor-list.php">Donor List</a></li>
-                    <li><a href="stock.php">Stock Blood List</a></li>
-                </ul>
-                <br><br><br>
-                <ul>
-                    <li><a href="empty-stock.php">Out Stock Blood List</a></li>
-                    <li><a href="exchange.php">Exchange Blood Registration</a></li>
-                    <li><a href="exchange_list.php">Exchange Blood List</a></li>
-                </ul>
+                <table class="admin-home-table">
+                    <tr>
+                        <td class="admin-home-center"><a href="donor-reg.php">Donor Registration</a></td>
+                        <td class="admin-home-center"><a href="donor-list.php">Donor List</a></td>
+                        <td class="admin-home-center"><a href="stock.php">Stock Blood List</a></td>
+                    </tr>
+                    <tr>
+                        <td class="admin-home-center"><a href="empty-stock.php">Out Stock Blood List</a></td>
+                        <td class="admin-home-center"><a href="exchange.php">Exchange Blood Registration</a></td>
+                        <td class="admin-home-center"><a href="exchange_list.php">Exchange Blood List</a></td>
+                    </tr>
+                </table>
 
 
             </div>

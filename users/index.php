@@ -9,8 +9,8 @@
 	<div class="logo"><h2>Blood Bank Management System</h2></div>
 	<div class="nav">
 		<div id="a"><a href="index.php">Home</a></div>
-		<div id="b"><a href="about.php">About As</a></div>
-		<div id="c"><a href="contect.php">Contect Us</a></div>
+		<div id="b"><a href="about.php">About Us</a></div>
+		<div id="c"><a href="contact.php">Contact Us</a></div>
 		<div id="d"><a href="login.php">Login</a></div>
 	</div>
 </div>
@@ -35,6 +35,6 @@ Blood Bank</h2></div>
 		</tr>
 	</table></center>
 </div>
-<div class="footer"><br><h2 align="center">Copyright@myprojecthd2018-19</h2></div>
+<div class="footer"><br><h2 align="center">Copyright</h2></div>
 </body>
 </html>

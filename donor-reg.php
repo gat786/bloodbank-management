@@ -101,7 +101,7 @@ session_start();
                     }
                 ?>
             </div>
-            <div class="" id="footer">Footer
+            <div class="" id="footer">
                     <p><a href="logout.php">Logout</a></p>
 
             </div>

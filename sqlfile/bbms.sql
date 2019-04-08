@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 02, 2019 at 10:16 AM
+-- Generation Time: Apr 05, 2019 at 06:52 AM
 -- Server version: 10.1.32-MariaDB
 -- PHP Version: 7.2.5
 
@@ -65,7 +65,10 @@ CREATE TABLE `donor_registeration` (
 
 INSERT INTO `donor_registeration` (`id`, `name`, `fname`, `address`, `city`, `mobile`, `age`, `email`, `bgroup`) VALUES
 (3, 'fsdfs', 'fssdf', 'fsdfs', 'fdsfsd', 213, 213, 'gat786@outlook.com', 'ap'),
-(5, 'Manan Narkar', 'Bor Narkar', 'Mahim', 'Mumbai', 873216920, 21, 'manan@gmail.com', 'ap');
+(5, 'Manan Narkar', 'Bor Narkar', 'Mahim', 'Mumbai', 873216920, 21, 'manan@gmail.com', 'ap'),
+(14, 'dsf', 'fsdf', 'dsfd', 'fdsf', 0, 0, '', 'nul'),
+(15, 'dsf', 'fsdf', 'dsfd', 'fdsf', 0, 0, '', 'nul'),
+(16, 'dsf', 'fsdf', 'dsfd', 'fdsf', 0, 0, '', 'nul');
 
 -- --------------------------------------------------------
 
@@ -156,7 +159,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `donor_registeration`
 --
 ALTER TABLE `donor_registeration`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `exchange_blood`

@@ -32,7 +32,7 @@ session_start();
                     
 
                     <table>
-                        <tr>
+                        <tr class="heading-row">
                             <td><p class="table_heading">Name</td>
                             <td><p class="table_heading">Fathers Name</td>
                             <td><p class="table_heading">Address</td>
@@ -56,10 +56,10 @@ session_start();
                                 "<td>".$donor['fname']."</td>".
                                 "<td>".$donor['address']."</td>".
                                 "<td>".$donor['city']."</td>".
-                                "<td>".$donor['mobile']."</td>".
                                 "<td>".$donor['age']."</td>".
-                                "<td>".$donor['email']."</td>".
-                                "<td>".$donor['bgroup']."</td>". 
+                                "<td>".$donor['bgroup']."</td>".
+                                "<td>".$donor['email']."</td>". 
+                                "<td>".$donor['mobile']."</td>".
                                 "</tr>";
 
 
