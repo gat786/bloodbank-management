@@ -95,7 +95,7 @@ session_start();
                                 </tr>
 
                                 <tr>
-                                    <td colspan=4>
+                                    <td colspan=4 class="submit_td">
                                         <input type="submit" name='sub' class="submit-button" value="Submit">
                                     </td>
                                 </tr>

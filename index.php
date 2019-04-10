@@ -45,7 +45,7 @@
                         </tr>
 
                         <tr>
-                            <td colspan=2>
+                            <td colspan=2 class="submit_td">
                                 <input type="submit" class="button" name="sub" value="Login">
                             </td>
                         </tr>

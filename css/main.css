@@ -65,9 +65,15 @@ p a{
 }
 
 .form{
-    background-color: #ff3f34;
+    background-color: #778ca3;
     border-radius: 10px;
     padding: 10px;
+    width:60%;
+    margin: auto;
+}
+
+.submit_td{
+    text-align: center;
 }
 
 .submit-button{
@@ -109,20 +115,24 @@ ul li{
     list-style: none;
     text-align: center;
 }
+
+#donor_reg_table{
+    margin:auto;
+}
+
 a{
     text-decoration: none;
     color: white;
 }
-table{
+.donor_list{
     width: 100%;
-    
 }
 td{
-    padding: 5px;
+    padding: 15px;
 }
 
 .column_desc{
-    color:#485460;
+    color:#ecf0f1;
 }
 
 .exchange_table{

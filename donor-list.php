@@ -31,7 +31,7 @@ session_start();
                     <div name="donor-list">
                     
 
-                    <table>
+                    <table class="donor_list">
                         <tr class="heading-row">
                             <td><p class="table_heading">Name</td>
                             <td><p class="table_heading">Fathers Name</td>

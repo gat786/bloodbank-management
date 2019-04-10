@@ -26,7 +26,7 @@ session_start();
                 <br>
                 <h1>Donor Registration</h1>
                 <form action="" method="post">
-                    <div class="form">
+                    <div class="form" id="donor_reg_table">
                         <center>
                             <table>
                                 <tr><td class="column_desc">Enter Name</td>
@@ -72,7 +72,7 @@ session_start();
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td colspan=4>
+                                    <td colspan=4 class="submit_td">
                                         <input type="submit" name='sub' class="submit-button" value="Submit">
                                     </td>
                                 </tr>
