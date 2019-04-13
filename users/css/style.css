@@ -69,3 +69,15 @@ a{
     text-decoration: none; 
     color: white;
 }
+
+.check-module{
+    width: 100%;
+}
+
+#exchange_table{
+    margin: auto;
+}
+
+marquee a{
+    color: black;
+}

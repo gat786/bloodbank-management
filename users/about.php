@@ -14,7 +14,7 @@
 		<div id="d"><a href="login.php">Login</a></div>
 	</div>
 </div>
-<div class="banner"><h2 align="center" style="color: white"><br><br><br><br><br><br><br><br><br>
+<div class="banner"><h2 align="center" style="color: white">
 Blood Bank</h2></div>
 <div class="container">
      <br>

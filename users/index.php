@@ -16,10 +16,14 @@
 </div>
 
 <div id="message">
-	<marquee behavior="" direction="left"> Check if a blood type of your need is available right now.! </marquee>
+	<marquee behavior="" direction="left"> 
+		<a href="check.php">
+			Check if a blood type of your need is available right now.! 
+		</a>
+	</marquee>
 </div>
 
-<div class="banner"><h2 align="center" style="color: white"><br><br><br><br><br><br><br><br><br>
+<div class="banner"><h2 align="center" style="color: white">
 Blood Bank</h2></div>
 <div class="container">
      <br>
@@ -29,14 +33,12 @@ Blood Bank</h2></div>
 		<tr>
 			<td width="200px" height="50px" style="color: red"><center><b>Doctor Name</b></center></td>
 			<td width="200px" height="50px" style="color: red"><center><b>Mobile No.</b></center></td>
-			<td width="200px" height="50px" style="color: red"><center><b>Address</b></center></td>
-			<td width="200px" height="50px" style="color: red"><center><b>Spaclization</b></center></td>
+			<td width="200px" height="50px" style="color: red"><center><b>Specialization</b></center></td>
 		</tr>
 		<tr>
-			<td width="200px" height="50px"><center>Demo Name</center></td>
-			<td width="200px" height="50px"><center>433535353654</center></td>
-			<td width="200px" height="50px"><center>xyz</center></td>
-			<td width="200px" height="50px"><center>xyz</center></td>
+			<td width="200px" height="50px"><center>Prakash Maharathi</center></td>
+			<td width="200px" height="50px"><center>+91 - 6758493481</center></td>
+			<td width="200px" height="50px"><center>Neuro Surgery</center></td>
 		</tr>
 	</table></center>
 </div>
