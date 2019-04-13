@@ -31,7 +31,7 @@ session_start();
                     <div name="out-stock-list">
                     
 
-                    <table>
+                    <table class="out_stock_table" >
                         <tr>
                             <td><p class="table_heading">Name</td>
                             <td><p class="table_heading">Blood Recieved</p></td>

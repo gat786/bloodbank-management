@@ -14,6 +14,11 @@
 		<div id="d"><a href="login.php">Login</a></div>
 	</div>
 </div>
+
+<div id="message">
+	<marquee behavior="" direction="left"> Check if a blood type of your need is available right now.! </marquee>
+</div>
+
 <div class="banner"><h2 align="center" style="color: white"><br><br><br><br><br><br><br><br><br>
 Blood Bank</h2></div>
 <div class="container">

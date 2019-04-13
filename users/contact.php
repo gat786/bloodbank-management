@@ -18,19 +18,24 @@
 		<div id="d"><a href="login.php">Login</a></div>
 	</div>
 </div>
-<div class="banner"><h2 align="center" style="color: white"><br><br><br><br><br><br><br><br><br>
-Blood Bank</h2></div>
+<div class="banner">
+<h2 align="center"class="middle-text" style="color: white">Blood Bank</h2>
+</div>
 <div class="container">
-     <br>
-	<br><br>
-	<div id="address">
-		<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Blood Bank</h2><br>
-		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Address</b> : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Demo Addresss</p><br>
-		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Mobile No</b> :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Demo Mno.</p><br>
-		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>E-Mail</b> :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Demo E-Mail</p><br>
+     <div id="address">
+		<h2>Contact Blood Bank</h2><br/>
+		<p><b>Address</b> : Prakash Maharathi </p><br/>
+		<p><b>Mobile No</b> : +91 - 6758493481</p><br/>
+		<p><b>E-Mail</b> : prakashmaharathi@bloodbank.com</p><br/>
 	</div>
-	<div id="map"><center><img src="img/map.jpg" width="200px" height="300px"></center></div>
-</div><br><br><br><br>
-<div class="footer"><br><h2 align="center">Copyright</h2></div>
+	<div id="map"><center>
+	<img src="img/map.jpg" width="200px" height="300px"></center>
+	</div>
+</div>
+
+<div class="footer">
+Copyright
+</div>
+
 </body>
 </html>

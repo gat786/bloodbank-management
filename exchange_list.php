@@ -31,7 +31,7 @@ session_start();
                     <div name="donor-list">
                     
 
-                    <table>
+                    <table class="exchange-table" style="margin:auto;">
                         <tr>
                             <td><p class="table_heading">Name</td>
                             <td><p class="table_heading">Fathers Name</td>

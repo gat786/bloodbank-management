@@ -64,6 +64,14 @@ p a{
     width: 100%;
 }
 
+.out_stock_table{
+    margin: auto;
+}
+
+.exchange_table{
+    margin: auto;
+}
+
 .form{
     background-color: #778ca3;
     border-radius: 10px;
